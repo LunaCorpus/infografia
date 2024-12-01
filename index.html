@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Luna Corpus G</title>
+    <style>
+        :root {
+            --primary-color: #3a3a3a;
+            --secondary-color: #f0f0f0;
+            --accent-color: #4CAF50;
+        }
+		a {
+			text-decoration: none;
+		}
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--primary-color);
+            background-color: var(--secondary-color);
+        }
+        .container-main {
+            display: grid;
+            grid-template-rows: auto 1fr;
+            min-height: 100vh;
+        }
+        header {
+            background-image: url('bg.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .button:hover {
+            background-color: white;
+            color: var(--primary-color);
+        }
+        main {
+            padding: 40px;
+        }
+        section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+        .section-image {
+			text-align: center;
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container-main">
+        <header>
+            <h1>Luna Corpus G</h1>
+            <div class="button-container">
+                <a href="./index.html" class="button" aria-label="Abrir Baúl del Conocimiento">Baúl del Conocimiento</a>
+                <a href="./aventura.html" class="button" aria-label="Iniciar Aventura">Aventura</a>
+                <a href="./forjando.html" class="button" aria-label="Abrir Forjando Mundos">Forjando Mundos</a>
+                <a href="./constelacion.html" class="button" aria-label="Ver Constelación de los Sueños">Constelación de los Sueños</a>
+            </div>
+        </header>
+        <main>
+            <section id="baul-conocimiento">
+                <h2>Baúl del Conocimiento</h2>
+                <img src="WhatsApp Image 2024-11-29 at 1.45.10 PM.jpeg" alt="Baúl del Conocimiento" class="section-image">
+                <h3>Artículos recomendados</h3>
+                <ul>
+                    <li>Cultura y simbología cultural</li>
+                    <li>Comunicación Social</li>
+                </ul>
+                <p>Soy estudiante de Comunicación Social de la Universidad Santo Tomás. Mis temas favoritos son acerca de cultura y sus simbologías, comunicación para el cambio social, paz y conflicto. Me gusta leer acerca de misterio e historia de Colombia.</p>
+                <p>En este espacio, exploro la relación entre la comunicación social y los procesos de conflicto y paz, tal como lo aborda mi universidad. Aquí comparto una selección de artículos clave que analizan cómo la comunicación puede ser una herramienta poderosa para la resolución de conflictos, la construcción de la paz y el diálogo entre comunidades.</p>
+                <h3>Artículos destacados:</h3>
+                <ul>
+                    <li>Comunicación para la paz</li>
+                    <li>Comunicación, memoria y paz</li>
+                    <li>Narrativas de resistencia y paz: El papel de los medios en la transformación de conflictos</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+	<footer class="bg-dark text-white text-center py-3">
+    	<p>&copy; 2024 Kuromixoxo. Todos los derechos reservados.</p>
+	  	<p>Contacto: <a href="lunacorpus68@gmail.com" class="text-white">lunacorpus68@gmail.com</a></p>
+  	</footer>
+</body>
+</html>
+
